@@ -39,6 +39,9 @@ type UploadResponse = MessageResponse & {
     filesize: number;
   };
 };
+type MediaResponse = MessageResponse & {
+  media: MediaItem;
+};
 
 export type {
   MessageResponse,
@@ -49,4 +52,5 @@ export type {
   UserDeleteResponse,
   AvailableResponse,
   BooleanResponse,
+  MediaResponse,
 };
