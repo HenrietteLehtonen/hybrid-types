@@ -21,6 +21,8 @@ type MediaItem = {
   media_type: string;
   title: string;
   description: string | null;
+  ingredients: string;
+  recipe: string;
   created_at: Date | string;
   screenshots: string[] | null;
 };
